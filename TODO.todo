@@ -1,0 +1,26 @@
+Бэкенд:
+    Создать БД пользователей, карточек:
+        ☐ Таблица пользователей:
+            id, t_id, first_name, last_name, username, level, nickname
+        ☐ Таблица карточек:
+            id, name, type(foreign -> card_type), description, points, reward
+        ☐ Таблица card_type:
+            id, name, color(?), points
+        ☐ Таблица попыток пользователя пройти карточку
+            id, user_id, card_id, result, video_id, pic_id, message, start_time, end_time, rating, status(on_rate, rated, not_rated), who_rated
+        ☐ Таблица статусов карточки:
+            id, name, card_closed(0,1 закрывающий карточку статус, или нет)
+        
+
+
+Админские функции:
+    ☐ Функция создания карточки, через бота
+    ☐ Функция оценки накопившихся карточек
+
+Пользовательские:
+    ☐ Функция знакомства и записи в БД
+    ☐ Функция просмотра профиля
+    ☐ Функция принятия карточки
+    ☐ Функция отправки ответа на карточку-задание
+    ☐ 
+
